@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".OptionsActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="100dp"
+
+        android:background="@drawable/btn_bg"
+        android:text="@string/quran"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/btn_bg"
+        android:text="Aadis"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="105dp"
+        android:background="@drawable/btn_bg"
+        android:text="Counter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/btn_bg"
+        android:text="Namaz"
+        android:layout_marginLeft="105dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+
+        android:layout_marginTop="480dp"
+        android:background="@drawable/btn_bg"
+        android:text="Qoatation"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="15dp"
+        android:text="@string/choose_what_you_want"
+        android:textColor="@color/colorWhite"
+
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+
+</RelativeLayout>

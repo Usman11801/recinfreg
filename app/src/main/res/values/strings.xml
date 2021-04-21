@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">recinfreg</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hadis">Hadis</string>
+    <string name="Hadds">Hadis</string>
+    <string name="namaz">Namaz</string>
+    <string name="button">Button</string>
+    <string name="choose_what_you_want">Choose What You Want</string>
+    <string name="quran">Quran</string>
+    <string name="qoutation">Qoutation</string>
+    <string name="counter">counter</string>
+    <string name="click_me">Click Me</string>
+    <string name="_0">0</string>
+</resources>
